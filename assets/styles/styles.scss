@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+$color : #ff0000;
+
+body{
+    background-color:#ff0000;
+    font-size:60px;
+
+    color:#000;
+
+    z-index:1000;
+}
+
+div{
+    @include make-row();
+    text-transform:uppercase;
+    font-style:italic;
+}
+
+
